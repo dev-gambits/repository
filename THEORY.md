@@ -8,7 +8,7 @@
 * Description:  
 
 
-2. Name:    
-* Link: [theory-](https://github.com/dev-gambits/theory-)
+2. Name:    theory-gcp
+* Link: [theory-gcp](https://github.com/dev-gambits/theory-gcp)
 * Visibility: Public
 * Description:  
