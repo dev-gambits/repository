@@ -12,3 +12,9 @@
 * Link: [theory-gcp](https://github.com/dev-gambits/theory-gcp)
 * Visibility: Public
 * Description:  
+
+
+3. Name:    theory-sql
+* Link: [theory-sql](https://github.com/dev-gambits/theory-sql)
+* Visibility: Public
+* Description:  
