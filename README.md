@@ -3,94 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <style>
-    *,
-    *:after,
-    *:before {
-        box-sizing: border-box;
-    }
-
-    body {
-        display: grid;
-        place-items: center;
-        min-height: 100vh;
-        font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
-        background: hsl(0 0% 10%);
-        margin: 0;
-        overflow: hidden;
-    }
-
-    :root {
-        --card-width: clamp(200px, 30vmin, 300px);
-    }
-
-    .track {
-        width: 100vw;
-        position: relative;
-        height: 100vh;
-        overflow: hidden;
-    }
-
-    ul {
-        display: flex;
-        gap: 2rem;
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        animation: moveLeft 30s linear infinite;
-    }
-
-    ul:hover {
-        animation-play-state: paused;
-    }
-
-    @keyframes moveLeft {
-        0% {
-            left: 100%;
+        *,
+        *:after,
+        *:before {
+            box-sizing: border-box;
         }
-        100% {
-            left: -100%;
+        body {
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+            background: hsl(0 0% 10%);
+            margin: 0;
+            overflow: hidden;
         }
-    }
-
-    li {
-        flex-shrink: 0;
-    }
-
-    article {
-        width: var(--card-width);
-        aspect-ratio: 1 / 1;
-        background: #808080;
-        border-radius: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: all 0.3s ease;
-    }
-
-    li:hover article {
-        transform: scale(1.5);
-        z-index: 10;
-    }
-
-    .social-icon {
-        width: 50%;
-        height: 50%;
-        transition: all 0.3s ease;
-    }
-
-    article:hover .social-icon {
-        fill: currentColor;
-    }
-
-    li:nth-child(1) article:hover { color: #1877F2; } /* Facebook */
-    li:nth-child(2) article:hover { color: #1DA1F2; } /* Twitter */
-    li:nth-child(3) article:hover { color: #E4405F; } /* Instagram */
-    li:nth-child(4) article:hover { color: #0A66C2; } /* LinkedIn */
-    li:nth-child(5) article:hover { color: #FF0000; } /* YouTube */
+        :root {
+            --card-width: clamp(200px, 30vmin, 300px);
+        }
+        .track {
+            width: 100vw;
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        ul {
+            display: flex;
+            gap: 2rem;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            animation: moveLeft 30s linear infinite;
+        }
+        ul:hover {
+            animation-play-state: paused;
+        }
+        @keyframes moveLeft {
+            0% {
+                left: 100%;
+            }
+            100% {
+                left: -100%;
+            }
+        }
+        li {
+            flex-shrink: 0;
+        }
+        article {
+            width: var(--card-width);
+            aspect-ratio: 1 / 1;
+            background: #808080;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        li:hover article {
+            transform: scale(1.5);
+            z-index: 10;
+        }
+        .social-icon {
+            width: 50%;
+            height: 50%;
+            transition: all 0.3s ease;
+        }
+        article:hover .social-icon {
+            fill: currentColor;
+        }
+        li:nth-child(1) article:hover {
+            color: #1877F2;
+        }
+        li:nth-child(2) article:hover {
+            color: #1DA1F2;
+        }
+        li:nth-child(3) article:hover {
+            color: #E4405F;
+        }
+        li:nth-child(4) article:hover {
+            color: #0A66C2;
+        }
+        li:nth-child(5) article:hover {
+            color: #FF0000;
+        }
     </style>
     <title>Animación de Redes Sociales | CSS - HTML</title>
 </head>
