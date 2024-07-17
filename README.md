@@ -1,9 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><style>
-        *,
-        *:after,
-        *:before {
-            box-sizing: border-box;
-        }
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><style>*,*:after,*:before {box-sizing: border-box;}
         body {
             display: grid;
             place-items: center;
